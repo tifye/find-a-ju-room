@@ -1,0 +1,10 @@
+{
+  "restartable": "rs",
+  "watch": ["src/"],
+  "ext": "ts,test.ts,json",
+  "ignore": [".git", "node_modules/"],
+  "exec": "node --loader ts-node/esm src/index.ts",
+  "env": {
+    "NODE_ENV": "developement"
+  }
+}
